@@ -38,6 +38,18 @@ val data: Map<String, Map<String, Map<String, Map<String, Set<Int>>>>> = mapOf(
                 "Ворота" to setOf(2),
             )
         )
+    ),
+    "Питер" to mapOf(
+        "КАД" to mapOf(
+            "Центральный" to mapOf(
+                "Невский" to setOf(1, 2, 3, 4, 6, 7, 8),
+            ),
+            "Красноармейский" to mapOf(
+                "Рубенштейн" to setOf(1, 3, 5, 6, 7),
+                "Жуковского" to setOf(2, 4, 8),
+                "Некрасовка" to setOf(4)
+            ),
+        ),
     )
 )
 
